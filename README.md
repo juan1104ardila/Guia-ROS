@@ -85,4 +85,8 @@ export ROS_MASTER_URI=http://192.168.1.8:11311/
 rostopic list 
 rostopic echo /phone1/android/imu
 ```
+## UNIDAD VI - Taller
+1. Actividad impuesta para poner en práctica los conocimientos aprendidos anteriormente, se planea solicitar un algoritmo que logre controlar un robot en el entorno de Gazebo, esto por medio de los sensores del celular.
+2. Solucionario de la actividad explicado en vídeo.
+3. Código utilizado para la lectura de datos y algoritmo. 
 
