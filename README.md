@@ -9,10 +9,10 @@ Esta actividad se verá orientada a estudiantes de la materia Fundamentos de Rob
 ### Tutoriales de instalación de los pre-requisitos
 - ubuntu:https://ubunlog.com/guia-de-instalacion-de-ubuntu-18-04-lts-bionic-beaver/#:~:text=Proceso%20de%20instalaci%C3%B3n-,Requisitos%20para%20instalar%20Ubuntu%2018.04%20LTS,puerto%20USB%20para%20la%20instalaci%C3%B3n.
 - ROS: http://wiki.ros.org/melodic/Installation/Ubuntu
-- Gazebo: http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
+- Gazebo: 
 - TurtleBot3: https://github.com/HaroldMurcia/TurtleBot3_test
 
-## UNIDAD 1-Introducción al ROS
+## UNIDAD I - Introducción al ROS
 En la primera unidad del taller se explicará brevemente la definición del ROS y para que nos ayuda este, también se mencionarán las partes que lo componen así como sus instrucciones principales en el CommandWindow para realizar una determinada acción.
 ### Comandos principales usados en ROS
 - Correr el nodo central o máster `roscore`
@@ -26,3 +26,10 @@ En la primera unidad del taller se explicará brevemente la definición del ROS 
 - Cerrar o finalizar la ejecución de un nodo `rosnode kill/nombre_del_nodo`
 - Ver los nodos de una máquina específica `rosnode machin/nombre_de_la_maquina`
 
+## UNIDAD II - GAZEBO
+En esta unidad se expondrán las principales funciones del Gazebo, se decribirá como trabaja el programa además de sus principales líneas de código al momentos de implementarlas para abrir los diferentes mundos que este posee.
+### Comandos usados en Gazebo
+- Para visualizar los mundos disponibles en el Gazebo `roslaunch turtlebot3_gazebo` y luego doble Tap
+- Para abrir empty world `roslaunch turtleblo3_gazebo turtlebot3_empty_world.launch`
+- Para abrir house `roslaunch turtleblo3_gazebo turtlebot3_house.launch`
+- Para abrir world `roslaunch turtleblo3_gazebo turtlebot3_world.launch`
