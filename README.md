@@ -12,6 +12,11 @@ Esta actividad se verá orientada a estudiantes de la materia Fundamentos de Rob
 - Gazebo: 
 - TurtleBot3: https://github.com/HaroldMurcia/TurtleBot3_test
 
-## UNIDAD 1-Introdcucción al ROS
-En la primera unidad del taller se explicará brevemente la definición del ROS y para que nos ayuda este, también se mencionarán las partes que lo componen así como sus instrucciones principales en el CommandWindow para realizar una determinada acción
-
+## UNIDAD 1-Introducción al ROS
+En la primera unidad del taller se explicará brevemente la definición del ROS y para que nos ayuda este, también se mencionarán las partes que lo componen así como sus instrucciones principales en el CommandWindow para realizar una determinada acción.
+### Comandos principales usados en ROS
+- correr el nodo central o máster `roscore`
+- Para ejecutar un nodo específico `rosrun/nombre_del_nodo`
+- Ver los nodos disponibles `rosnode list`
+- Ver información de los nodos `rosnode info/nombre_del_nodo`
+-
