@@ -45,3 +45,23 @@ En esta unidad se expondrán las características que tiene uno de los robots m�
 ### Correr los mundos instalados con el Husky
 - Mundo vacío `roslaunch husky_gazebo husky_empty_world.launch`
 - Mundo con distintos elementos y variaciones en cuanto a suelo ` roslaunch husky_gazebo husky_playpen.launch`
+## UNIDAD IV - Control remoto
+En esta unidad se describirá y explicará paso a paso como podemos enlazar correctamente un mando con el Gazebo y a su vez se mostrará como realizar la conexión de este con el robot que se ecuentre siendo simulado en el space de Gazebo.
+### Instalación y reconocimiento del control
+1. Escribimos la linea de código dependiendo de nuestra versión de ROS `sudo apt install ros-melodic-joy`
+2. Sin conectar el control escribimos la instrucción `ls /dev/input/`
+3. Al conectar nuestro control ejecutamos la misma instrucción para así saber cual es el puerto al que se enlasa este `ls /dev/input/`
+4. Se crea un archivo punto sh con `nano inicioControl.sh`
+5. Luego en el archivo se copia
+```
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+
+echo "Configuracion mi control"
+
+sudo chmod a+rw /dev/input/jsx
+echo "2"
+rosparam set joy_node/dev "/dev/input/jsx"
+rosrun joy joy_node
+```
+reemplazando X por el número de puerto al que se conecta el control
