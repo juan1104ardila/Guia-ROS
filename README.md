@@ -3,5 +3,11 @@ Esta actividad se verá orientada a estudiantes de la materia Fundamentos de Rob
 
 ## Pre-resquisitos
 - Ubuntu instalado (aconsejable versión 16.04 o 18.04)
-- ROS y Turtlebot 3 (aconsejable Melodic o kinetic)
+- ROS, Gazebo y Turtlebot 3 instalados (aconsejable Melodic o kinetic)
 - Conocimientos básicos de Python y CommandWindow de Ubuntu
+
+### Tutoriales de instalación de los pre-requisitos
+- ubuntu:https://ubunlog.com/guia-de-instalacion-de-ubuntu-18-04-lts-bionic-beaver/#:~:text=Proceso%20de%20instalaci%C3%B3n-,Requisitos%20para%20instalar%20Ubuntu%2018.04%20LTS,puerto%20USB%20para%20la%20instalaci%C3%B3n.
+- ROS: http://wiki.ros.org/melodic/Installation/Ubuntu
+- Gazebo: 
+- TurtleBot3: https://github.com/HaroldMurcia/TurtleBot3_test
