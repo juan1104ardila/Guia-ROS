@@ -36,5 +36,9 @@ En esta unidad se expondrán las principales funciones del Gazebo, se decribirá
 ### Instalación del gazebo
 1. Para la correcta instalación del Gazebo se debe accder y seguir los pasos del siguiente repositorio: http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
 2. Luego de la instalación solo resta abrirlo con el comando `roslaunch turtlebot3_gazebo`
+
 ## UNIDAD III - Husky
 En esta unidad se expondrán las características que tiene uno de los robots móviles más conocidos actualmente que emplean la configuración Skid Steer, ampliaremos la información hacia el mundo de ROS y explicaremos brevemente como se da la instalación de su simulación y que sensores trae implementada su versión digital.
+### Instalación del simulador del Husky en Gazebo (ROS melodic)
+1. `sudo apt install ros-melodic-desktop`
+2. `sudo apt install ros-melodic-simulator`
