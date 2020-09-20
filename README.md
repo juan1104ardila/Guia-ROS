@@ -42,3 +42,7 @@ En esta unidad se expondrán las características que tiene uno de los robots m�
 ### Instalación del simulador del Husky en Gazebo (ROS melodic)
 1. `sudo apt install ros-melodic-desktop`
 2. `sudo apt install ros-melodic-simulator`
+### Correr los mundos instalados con el Husky
+Mundo vacío `roslaunch husky_gazebo husky_empty_world.launch`
+Mundo con distintos elementos y variaciones en cuanto a suelo ` roslaunch husky_gazebo husky_playpen.launch`
+
