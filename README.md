@@ -9,7 +9,7 @@ Esta actividad se verá orientada a estudiantes de la materia Fundamentos de Rob
 ### Tutoriales de instalación de los pre-requisitos
 - ubuntu:https://ubunlog.com/guia-de-instalacion-de-ubuntu-18-04-lts-bionic-beaver/#:~:text=Proceso%20de%20instalaci%C3%B3n-,Requisitos%20para%20instalar%20Ubuntu%2018.04%20LTS,puerto%20USB%20para%20la%20instalaci%C3%B3n.
 - ROS: http://wiki.ros.org/melodic/Installation/Ubuntu
-- Gazebo: 
+- Gazebo: http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
 - TurtleBot3: https://github.com/HaroldMurcia/TurtleBot3_test
 
 ## UNIDAD 1-Introducción al ROS
