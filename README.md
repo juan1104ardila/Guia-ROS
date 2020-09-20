@@ -64,6 +64,5 @@ echo "2"
 rosparam set joy_node/dev "/dev/input/jsx"
 rosrun joy joy_node
 ```
-reemplazando X por el número de puerto al que se conecta el control
 6. Al guardar el archivo anterior ejecutamos la instrucción `roscore`
 7. Ejecutamos el archivo guardado anteriormente con la instrucción `bash inicioControl.sh`
