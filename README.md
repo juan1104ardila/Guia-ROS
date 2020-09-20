@@ -71,3 +71,18 @@ rosrun joy joy_node
 2. Cuando el roscore esté corriendo es necesario correr el código (se encontará disponible en el src de la unidad 4) `python escuhjoyXBOXprofesor.py`
 3. Abrir el gazebo con el turtlebot 3 `roslaunch turtleblo3_gazebo turtlebot3_world.launch`
 4. Para nuestro código (XBOX 360) se debe avanzar con el análogo derecho y dar giro con el izquierdo, esto solo funciona cuando LB esté presionado.
+## UNIDAD V - Aplicación del celular 
+Para llevar a cabo esta unidad se presentará un video explicativo en donde se evidencie todo lo relacionado con la aplicación, desde como instalarla hasta como utilizarla.
+1. Se debe descargar la aplicación de android llamada ros all sensors drive 
+2. Buscar la dirección IP del ordenador por medio de la aplicación angry IP scanner
+3. Copiar la siguiente línea de código en la consola, reemplazando el número por la IP correspondiente de cada ordenador
+```
+export ROS_MASTER_URI=http://192.168.1.8:11311/
+```
+4. Se inicia el roscore en el CommandWindow
+5. Se verifica que la información sea correcta corriendo las siguientes líneas de código
+```
+rostopic list 
+rostopic echo /phone1/android/imu
+```
+
