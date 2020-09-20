@@ -66,3 +66,8 @@ rosrun joy joy_node
 ```
 6. Al guardar el archivo anterior ejecutamos la instrucción `roscore`
 7. Ejecutamos el archivo guardado anteriormente con la instrucción `bash inicioControl.sh`
+### Controlar los movimiento del Turtlebot 3 con el control
+1. Para realizar la conexión simplemente se debe crear un archivo en python con `nano escuhjoyXBOXprofesor.py`
+2. Cuando el roscore esté corriendo es necesario correr el código (se encontará disponible en el src de la unidad 4) `python escuhjoyXBOXprofesor.py`
+3. Abrir el gazebo con el turtlebot 3 `roslaunch turtleblo3_gazebo turtlebot3_world.launch`
+4. Para nuestro código (XBOX 360) se debe avanzar con el análogo derecho y dar giro con el izquierdo, esto solo funciona cuando LB esté presionado.
