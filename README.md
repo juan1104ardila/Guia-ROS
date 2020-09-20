@@ -11,3 +11,7 @@ Esta actividad se verá orientada a estudiantes de la materia Fundamentos de Rob
 - ROS: http://wiki.ros.org/melodic/Installation/Ubuntu
 - Gazebo: 
 - TurtleBot3: https://github.com/HaroldMurcia/TurtleBot3_test
+
+## UNIDAD 1-Introdcucción al ROS
+En la primera unidad del taller se explicará brevemente la definición del ROS y para que nos ayuda este, también se mencionarán las partes que lo componen así como sus instrucciones principales en el CommandWindow para realizar una determinada acción
+
